@@ -21,9 +21,7 @@ balance.addEventListener('click', function () {
         document.querySelector(
           'p'
         ).innerHTML = `${myArray[i]} and ${myArray[j]}`
-      }
-      // return;
-      else if (
+      } else if (
         +firstInput.value <= 0 ||
         +firstInput.value > 20 ||
         +secondInput.value <= 0 ||
