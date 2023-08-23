@@ -9,25 +9,35 @@
   </head>
   <body>
     <div class="main-container">
-      <div>
+      <input
+        type="number"
+        id="myarray"
+        placeholder="input weights to balance scale eg 1234567890"
+      />
+      <div class="weightssection">
         <div class="scale">
           <div class="scale1">
             <label for="">First input</label> <br />
-            <input type="number" id="firstinput" />
+            <input type="number" id="firstInput" />
           </div>
 
           <div class="scale2">
             <div>
               <label for="">Second input</label> <br />
-              <input type="number" id="secondinput" />
+              <input type="number" id="secondInput" />
             </div>
           </div>
         </div>
       </div>
-      <p>output</p>
+      <div class="actions">
+        <button>balance iterms</button>
+        <div class="status">
+          <p>Output</p>
+        </div>
+      </div>
+    </div>
+    <div class="error" id="error">
 
-      <br />
-      <button>balance iterms</button>
     </div>
   </body>
   <script src="./index.js"></script>
