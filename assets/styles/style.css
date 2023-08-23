@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  font-family: poppins, sans-serif;
+  margin-top: 30vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #b508cc;
+  width: 40vw;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scale {
+  margin-top: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  text-transform: uppercase;
+  width: 10rem;
+  padding: 5px 10px;
+  height: 2rem;
+  background-color: #22182b;
+  border: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2e2337;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  background-color: transparent;
+  margin: auto;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+#myarray {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.actions {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  padding: 2px;
+}
+
+.status {
+  width: 11rem;
+  background-color: #fff;
+}
+
+p {
+  padding: 6px 0 0;
+  background-color: #fff;
+  width: fit-content;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  font-style: italic;
+}
+
+.error p {
+  text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+  .main-container {
+    width: 90vw;
+  }
+
+  .scale {
+    flex-direction: row;
+    margin: auto;
+  }
+}
