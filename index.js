@@ -1,5 +1,5 @@
-const firstInput = document.getElementById('firstInput')
-const secondInput = document.getElementById('secondInput')
+const firstInput = document.getElementById('firstinput')
+const secondInput = document.getElementById('secondinput')
 const balance = document.querySelector('button')
 const selectArray = document.getElementById('myarray')
 const error = document.getElementById('error')
